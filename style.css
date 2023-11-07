@@ -63,6 +63,8 @@ body, h1, h2, p, ul, li {
     font-size: 16px;
     line-height: 1.5;
   }
-  img{
-    border: 5px solid #fff;
+  .large-image {
+    max-width: 100%; /* Set a maximum width of 100% to fit within the page */
+    height: auto;    /* Automatically adjust the height to maintain the aspect ratio */
   }
+  
